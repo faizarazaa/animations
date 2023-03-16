@@ -1,0 +1,59 @@
+.parent {
+    background-color: aquamarine;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    align-items: center;
+    /* flex-wrap: wrap; */
+    /* flex-flow: column-reverse; */
+
+}
+
+.child {
+    background-color: greenyellow;
+    height: 50px;
+    width: 50px;
+    margin: 10px;
+}
+
+.target {
+    order: 2;
+    /* flex-grow: 2; */
+     /* flex-shrink: 3px; */
+
+
+
+}
+
+.abc {
+
+    animation:  faiza duration timing-function delay iteration-count direction fill-mode;
+    background-image:url("https://www.pexels.com/photo/view-of-street-from-a-glass-window-531880/");
+    height: 100px;
+    width: 100px;
+
+}
+
+@keyframes faiza {
+    0% {
+        background-color: blueviolet;
+        top: 0;
+        left: 0;
+        
+    }
+
+    50% {
+        background-color: brown;
+        top: 100px;
+        left: 100px;
+    }
+
+    100% {
+        background-color: rgb(46, 11, 34);
+        top: 150px;
+        left: 0;
+
+    }
+}
